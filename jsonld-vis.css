@@ -5,6 +5,7 @@ svg {
 }
 
 .node {
+  padding-top:50px;
   cursor: pointer;
 }
 
