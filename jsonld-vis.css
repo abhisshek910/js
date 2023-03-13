@@ -33,3 +33,7 @@ svg {
   stroke: #dadfe1;
   stroke-width: 1px;
 }
+.highlighted-key {
+    color: red;
+    font-weight: bold;
+}
