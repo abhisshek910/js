@@ -148,9 +148,17 @@
                     return d.isIdNode ? "2px" : "1px";
                 })
                 .style("stroke", function(d) {
+                    if (highlighted_keys.includes(d.name))
+                    {
+                        return "red"
+                    }
                     return d.isIdNode ? "#F7CA18" : "#4ECDC4";
                 })
                 .style("fill", function(d) {
+                    if (highlighted_keys.includes(d.name))
+                    {
+                        return "red"
+                    }
                     if (d.isIdNode) {
                         return d._children ? "#F5D76E" : "white";
                     } else {
