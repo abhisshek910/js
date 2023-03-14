@@ -1,7 +1,7 @@
 (function() {
     "use strict";
 
-    function jsonldVis(jsonld, selector, config) {
+    function jsonldVis(highlighted_keys,jsonld, selector, config) {
         if (!arguments.length) return jsonldVis;
         config = config || {};
 
